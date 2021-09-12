@@ -1,0 +1,143 @@
+/*=====banner=====*/
+.post{
+    position: relative;
+}
+.banner-img{
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+}
+
+/*===card====*/
+.card-img{
+    position: relative;
+    width: 70px !important;
+    width: 70px !important;
+    
+    top: -50px;
+    border-radius: 50% !important;
+    border: 2px solid springgreen;
+}
+.circul-icons{
+    background-color: #777;
+    padding:12px 17px;
+    border-radius: 50%;
+    font-size: 30px;
+    position: relative;
+    top: -30px !important;
+}
+/*====type of testting=====*/
+.bg-blue{
+    background:#E8F2FF;
+    
+}
+/*====scorallbar=====*/
+.main{
+    float: left;
+    width: 100%;
+    height:350px ;
+    padding: 2%;
+    overflow: auto;
+    direction:rtl ;
+    text-align: left;
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: red; 
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #b30000; 
+}
+.item{
+    padding: 2%;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+/*====symtom and testing about=====*/
+.li-item{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+/*Q&N section*/
+.collapsible {
+background-color: #777;
+color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+}
+
+.active, .collapsible:hover {
+background-color: #555;
+}
+
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
+}
+.arrow-icon{
+    display: block;
+}
+
+
+
+/*====get tested circul====*/
+.content-text-left{
+    font-size: 14px;
+    text-align: right;
+    width: 95%;
+}
+.content-text-right{
+    font-size: 14px;
+    text-align: left;
+    width: 95%;
+}
+.circul-icon{
+    background-color: #777;
+    padding:7px 10px;
+    border-radius: 50%;
+}
+
+/*our clind infinite*/
+.clind-img{
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/*===footer===*/
+.logo-img{
+    width: 75px;
+    height: auto;
+}
+
+@media only screen and (max-width :480px) {
+    .banner-img{
+        position: inherit;
+        left: 0;
+        bottom: 0;
+    }
+    .banner-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
